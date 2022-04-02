@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid red;
+    flex-wrap: wrap;
     
 }
 
@@ -122,6 +123,7 @@ ul {
     display: flex;
     gap: 72px;
     margin-bottom: 96px;
+    border: 1px solid red;
 
 }
 

@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid red;
+    
 }
 
 .header {
@@ -104,4 +105,40 @@ ul {
     padding: 8px 32px;
     font-size: 16px;
     font-weight: 600;
+}
+
+.body1 {
+    display: flex;
+    text-align: center;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.container {
+    display: flex;
+    gap: 72px;
+    margin-bottom: 96px;
+
+}
+
+.main-line {
+    border: 1px solid red;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-top: 72px;
+}
+
+.txt {
+    display: flex;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #1f2937;
+    max-width: 200px;
+    
 }

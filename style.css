@@ -145,3 +145,31 @@ ul {
     max-width: 200px;
     
 }
+
+.body2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    padding: 64px 100px 64px 100px;
+    flex-wrap: wrap;
+    
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    border: 1px solid red;
+    font-style: oblique;
+    max-width: 800px;
+}
+
+.quote {
+    display: flex;
+    border: 1px solid red;
+    justify-content: flex-end;
+    font-weight: 700;
+    max-width: 800px;
+    min-width: 800px;
+}
